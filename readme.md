@@ -7,7 +7,7 @@ A simple Node.js web application with CI/CD pipeline using GitHub Actions and Do
 
 Flow :
 
-![alt text](image.png)
+![alt text](screenshots/flow.png)
     
     1. The source code is (git push) pushed to the git repository.
     2. Whenever the code pushed The GitHub Actions will do its job with our scripts which i wrote in (.github/workflow/CiCD.yml)
@@ -16,7 +16,7 @@ Flow :
             B. setup nodejs and Start the nodejs app (app.js) on server
             C. the unit test case performed (test.js) if test case passed the process will continue, if TEST case failed the process will terminated.
 
-![alt text](Test.png)    
+![alt text](screenshots/Tests.png)    
                 
             D. after the tests are passed the app will be BUILD the app on docker as docker image with the help of (Dockerfile).
             E. once the docker image is built it will be DEPLOY to the dockerhub (docker registry)
@@ -31,3 +31,4 @@ Stored my docker credentials in github > Secrets
 
 
 [![Email](https://img.shields.io/badge/Email-subasangeeth07@gmail.com-blue)](mailto:subasangeeth07@gmail.com)
+
