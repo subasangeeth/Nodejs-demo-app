@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-expose 8081
+EXPOSE 8081
 
 CMD ["node","app.js"]
