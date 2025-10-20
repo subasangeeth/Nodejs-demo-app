@@ -25,7 +25,7 @@ Flow :
 before Push
 ![Docker Creds](screenshots/beforePush.png)
 
-after Push
+after Push > test > build > pushed the new image > pulled it and excuted on my machine
 
 ![Docker Creds](screenshots/afterPush.png)
 
