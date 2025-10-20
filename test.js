@@ -6,7 +6,7 @@ require('http').get('http://localhost:8081', res => {
       console.log(' Test case Passed');
       process.exit(0);
     } else {
-      console.log('Test Failed');
+      console.log('Test case Failed');
       process.exit(1);
     }
   });
