@@ -22,11 +22,19 @@ Flow :
             E. once the docker image is built it will be DEPLOY to the dockerhub (docker registry)
             F. then the image can be pulled and ran anywhere on any machines,instances on cloud.  
 
+before Push
+![Docker Creds](screenshots/beforePush.png)
+
+after Push
+
+![Docker Creds](screenshots/afterPush.png)
+
+
+
 
 Docker credentials :
 Stored my docker credentials in github > Secrets
     ![Docker Creds](screenshots/image.png)
-![alt text](image.png)
 
 
 
