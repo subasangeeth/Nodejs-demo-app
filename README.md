@@ -12,15 +12,14 @@ Flow :
     1. The source code is (git push) pushed to the git repository.
     2. Whenever the code pushed The GitHub Actions will do its job with our scripts which i wrote in (.github/workflow/CiCD.yml)
     3. The github actions will perform the CICD follows,
-            A. Will pull the source code to machine
-            B. setup nodejs and Start the nodejs app (app.js) on server
-            C. the unit test case performed (test.js) if test case passed the process will continue, if TEST case failed the process will terminated.
+            >>> Will pull the source code to machine
+            >>> setup nodejs and Start the nodejs app (app.js) on server
+            >>> the unit test case performed (test.js) if test case passed the process will continue, if TEST case failed the process will terminated.
+            >>> after the tests are passed the app will be BUILD the app on docker as docker image with the help of (Dockerfile).
+            >>> once the docker image is built it will be DEPLOY to the dockerhub (docker registry)
+            >>> then the image can be pulled and ran anywhere on any machines,instances on cloud.  
 
-![alt text](screenshots/Tests.png)    
-                
-            D. after the tests are passed the app will be BUILD the app on docker as docker image with the help of (Dockerfile).
-            E. once the docker image is built it will be DEPLOY to the dockerhub (docker registry)
-            F. then the image can be pulled and ran anywhere on any machines,instances on cloud.  
+            ![alt text](screenshots/Tests.png)   
 
 <====before Push=====>
 ![Docker Creds](screenshots/beforePush.png)
@@ -39,5 +38,6 @@ Stored my docker credentials in github > Secrets
 
 
 [![Email](https://img.shields.io/badge/Email-subasangeeth07@gmail.com-blue)](mailto:subasangeeth07@gmail.com)
+
 
 
