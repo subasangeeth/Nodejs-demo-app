@@ -19,12 +19,14 @@ Flow :
             >>> once the docker image is built it will be DEPLOY to the dockerhub (docker registry)
             >>> then the image can be pulled and ran anywhere on any machines,instances on cloud.  
 
-            ![alt text](screenshots/Tests.png)   
+
 
 <====before Push=====>
 ![Docker Creds](screenshots/beforePush.png)
 
 <----after Push-----> push > code > test > build > pushed the new image > pulled it and excuted on my machine
+
+![alt text](screenshots/Tests.png)   
 
 ![Docker Creds](screenshots/afterPush.png)
 
@@ -38,6 +40,7 @@ Stored my docker credentials in github > Secrets
 
 
 [![Email](https://img.shields.io/badge/Email-subasangeeth07@gmail.com-blue)](mailto:subasangeeth07@gmail.com)
+
 
 
 
